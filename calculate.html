@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Area.css">
+    <link rel="stylesheet" href="perimeter.css">
+    <link rel="stylesheet" href="perimeterRec.css">
+    <link rel="stylesheet" href="Areasquare.css">
+</head>
+
+<body>
+    <header> CALCULATE WITH MIDE</header>
+
+    <div id="maincont">
+        <p id="p1"> Calculate The Area of a Triangle</p>
+        <div id="box1">
+            <p id="p2">Base:</p>
+            <input id="input1" type="text" placeholder="enter base">
+        </div>
+
+        <div id="box2">
+            <p id="p3"> Height:</p>
+            <input id="input2" type="text" placeholder="enter height">
+        </div>
+
+        <div id="box3">
+            <button id="btn1"> Solve</button>
+            <button id="btn2"> Reset</button>
+        </div>
+        <div id="result">
+            <p id="ans"> Answer:</p>
+            <p id="output1"> </p>
+        </div>
+
+    </div>
+
+
+    <div id="maincont2">
+        <p id="p1"> Calculate The Perimeter of a Square</p>
+        <div id="mbox1">
+            <p id="p2">length:</p>
+            <input id="input3" type="text" placeholder="enter length">
+        </div>
+
+
+
+        <div id="mbox3">
+            <button id="b1"> Solve</button>
+            <button id="b2"> Reset</button>
+        </div>
+
+        <div id="result2">
+            <p id="mans"> Answer:</p>
+            <p id="output2"> </p>
+        </div>
+    </div>
+
+    <div id="maincont3">
+        <p id="p1"> Calculate The Perimeter of a Rectangle</p>
+        <div id="nbox1">
+            <p id="p2">length:</p>
+            <input id="input4" type="text" placeholder="enter length">
+        </div>
+        <div id="nbox2">
+            <p id="p3">Breath:</p>
+            <input id="input5" type="text" placeholder="enter length">
+        </div>
+
+
+        <div id="nbox3">
+            <button onclick="solve3()" id="bt1"> Solve</button>
+            <button onclick="reset3()" id="bt2"> Reset</button>
+        </div>
+
+        <div id="result3">
+            <p id="nans"> Answer:</p>
+            <p id="output3"> </p>
+        </div>
+    </div>
+
+    <div id="maincont4">
+        <p id="p1"> Calculate The Area of a Square</p>
+        <div id="obox1">
+            <p id="p2">length:</p>
+            <input id="input6" type="text" placeholder="enter length">
+        </div>
+
+
+
+        <div id="obox3">
+            <button onclick="solve4()" id="btt1"> Solve</button>
+            <button onclick = "reset4()" id="btt2"> Reset</button>
+        </div>
+
+        <div id="result4">
+            <p id="oans"> Answer:</p>
+            <p id="output4"> </p>
+        </div>
+    </div>
+
+
+
+
+    <script src="calculate.js"></script>
+    <script src="calculate2.js"></script>
+    <script src="calculate3.js"></script>
+    <script src="calculate4.js"></script>
+</body>
+
+</html>

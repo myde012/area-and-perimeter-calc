@@ -1,0 +1,127 @@
+header {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 1em;
+    font-size: 1.2em;
+
+}
+
+#maincont2 {
+    margin-top: 2em;
+    margin: 2em;
+    background-color: transparent;
+    border: solid 2px purple;
+    border-radius: 20px;
+    padding: 2em;
+
+
+}
+
+#maincont2>#p1 {
+    margin-top: 2em;
+    font-size: 1.7em;
+    text-align: center;
+    color: purple;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#mbox1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+#maincont2>#mbox1>#p2 {
+    font-size: 1.5em;
+    color: purple;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#mbox2 {
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: -0.5em;
+}
+
+#maincont>#mbox2>#p3 {
+    font-size: 1.3em;
+    color: purple;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#mbox1>#input3 {
+    width: 15em;
+    height: 2em;
+}
+
+#mbox3 {
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#mbox3>#b1 {
+    border: 1px solid purple;
+    border-radius: 20px;
+    background-color: transparent;
+    color: purple;
+    padding: 0.5em;
+    width: 6em;
+    font-size: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+
+#mbox3>#b2 {
+    border: 1px solid purple;
+    border-radius: 20px;
+    background-color: transparent;
+    color: purple;
+    padding: 0.5em;
+    width: 6em;
+    font-size: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+
+#mbox3>#b1:hover {
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: purple;
+    color: white;
+
+}
+
+#mbox3>#b2:hover {
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: purple;
+    color: white;
+
+}
+
+#result2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#mans {
+    font-size: 1.3em;
+    color: purple;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#output2 {
+    font-size: 1.3em;
+    color: purple;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
